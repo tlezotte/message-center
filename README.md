@@ -40,4 +40,10 @@ A string representing one of the predefined or custom display modes (“warning�
 *(Optional) String*  
 A string representing one of the three predefined display styles
 
+##Examples
+###default
+> $().message_center({ text: ‘Welcome to the jQuery Message Center’ });  
+
+###warning
+> $().message_center({ text: ‘Welcome to the jQuery Message Center’, type: ‘warning’ });
 
